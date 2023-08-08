@@ -1,0 +1,26 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Introduction from './Introduction';
+
+function Navigation() {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <Link to="#introduction">Introduction</Link>
+        </li>
+        <li>
+          <Link to="#definition">Definition</Link>
+        </li>
+        <li>
+          <Link to="#vote">Vote</Link>
+        </li>
+        <li>
+          <Link to="#comments">Comments</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+}
+
+export default Navigation;
