@@ -1,0 +1,15 @@
+.vote-section-container {
+    /* Your CSS styles for VoteSection component container go here */
+  }
+  
+  .vote-buttons {
+    /* Your CSS styles for the vote buttons container go here */
+  }
+  
+  .vote-button {
+    /* Your CSS styles for the vote button (when not active) go here */
+  }
+  
+  .vote-button-active {
+    /* Your CSS styles for the active vote button go here */
+  }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style/CommentsSection.css';
 
 function CommentsSection() {
   const [comment, setComment] = useState('');
@@ -9,7 +10,7 @@ function CommentsSection() {
   };
 
   return (
-    <div>
+    <div className="comments-section-container">
       <h2>Comments and Feedback</h2>
       <textarea
         value={comment}

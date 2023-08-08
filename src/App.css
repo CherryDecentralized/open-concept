@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Scuffed Whitepaper Background */
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
+
+/* Wikipedia-like Text Formatting */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+/* Add more styles for other elements as needed */
